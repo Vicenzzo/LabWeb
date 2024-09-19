@@ -4,7 +4,7 @@ const handlebars = require("express-handlebars").engine
 const bodyParser = require("body-parser")
 
 
-const { initializeApp, applicationDefault, cert } = require('firebase-admin/app')
+const { initializeApp, applicationDefault, cert } = equire('firebase-admin/app')
 const { getFirestore, Timestamp, FieldValue, Filter } = require('firebase-admin/firestore')
 
 const serviceAccount = require("./teste-48000-firebase-adminsdk-kz83t-832d312de7.json")
